@@ -1,0 +1,15 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Local editor settings
+.vscode/
+
+# Local logs
+*.log
+
+# Local demo-data and screenshot helpers
+.demo/
+
+# Local handoff notes contain workstation-specific paths
+HANDOFF.md

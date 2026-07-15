@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>研究・業務用Pythonソフト開発 | データ処理・解析・可視化を専用ツール化</title>
+  <meta name="description" content="CSV、Excel、JSON、研究・実験データの処理、解析、可視化、出力をPythonのGUI付き専用ツールとして開発します。">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="研究・業務用Pythonソフト開発">
+  <meta property="og:description" content="研究・業務データの処理、解析、可視化をPythonのGUI付き専用ツールにします。">
+  <meta property="og:image" content="assets/images/future-theme.png">
+  <link rel="icon" href="assets/images/logo-seikou.png">
+  <link rel="stylesheet" href="assets/css/styles.css?v=20260713-4">
+</head>
+<body>
+  <header class="site-header" aria-label="サイトヘッダー">
+    <a class="brand" href="#top" aria-label="トップへ">
+      <img src="assets/images/logo-seikou.png" alt="武勝ロゴ">
+      <span class="brand-copy">
+        <strong>武勝</strong>
+        <small>Python Tool Studio</small>
+      </span>
+    </a>
+    <nav class="nav-links" aria-label="主要ナビゲーション">
+      <a href="#service">対応範囲</a>
+      <a href="#flow">制作の流れ</a>
+      <a href="#pricing">料金</a>
+      <a href="https://note.com/okonomitgn_" target="_blank" rel="noopener">note</a>
+      <!-- TODO: ココナラ出品URLが決まったら、以下のhrefを公開サービスURLに差し替える。 -->
+      <a class="nav-cta" href="#url-notice" aria-describedby="url-notice">ココナラ相談</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-label="メインビジュアル">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="eyebrow">武勝 / Data Tool Engineering</p>
+        <h1>研究・業務データを、<br>専用ツールで次の<span class="mobile-break"><br></span>作業環境へ。</h1>
+        <p class="hero-lead">
+          CSV・Excel・JSON・測定データの読み込み、整形、解析、グラフ化、出力まで。
+          PythonのGUI付きデスクトップアプリとして、毎回の手作業を実用ツールに変えます。
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#url-notice" aria-describedby="url-notice">ココナラで見積り相談する</a>
+          <a class="button secondary" href="#estimate">相談前の確認項目を見る</a>
+        </div>
+        <p class="mockup-notice" id="url-notice" role="note">
+          <strong>モックアップ表示中</strong>
+          外部サービスURLは未実装です。ココナラ相談ボタンは公開前の仮導線です。
+        </p>
+      </div>
+      <div class="hero-metrics" aria-label="サービス概要">
+        <div>
+          <span>Base</span>
+          <strong>30,000円</strong>
+        </div>
+        <div>
+          <span>Stack</span>
+          <strong>Python / Tkinter</strong>
+        </div>
+        <div>
+          <span>Output</span>
+          <strong>CSV / Excel / Graph</strong>
+        </div>
+      </div>
+    </section>
+
+    <section class="section intro-section">
+      <div class="section-heading">
+        <p class="section-kicker">Problem Fit</p>
+        <h2>その繰り返し作業を、使える形に落とし込みます。</h2>
+      </div>
+      <div class="pain-grid">
+        <article class="pain-item">
+          <h3>毎回同じデータ整理をしている</h3>
+          <p>列の整形、不要行の除外、条件抽出、複数ファイルの集計などを手順化します。</p>
+        </article>
+        <article class="pain-item">
+          <h3>測定データを解析したい</h3>
+          <p>研究・実験データの読み込みから、自動計算、判定、結果出力まで対応します。</p>
+        </article>
+        <article class="pain-item">
+          <h3>Pythonコードではなく画面で使いたい</h3>
+          <p>ファイル選択、実行ボタン、条件入力、結果表示を備えたGUIにできます。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section service-section" id="service">
+      <div class="section-heading">
+        <p class="section-kicker">Scope</p>
+        <h2>読み込みから出力まで、必要な部分だけ専用化。</h2>
+      </div>
+      <div class="service-grid">
+        <article class="service-card">
+          <span class="service-number">01</span>
+          <h3>データ読み込み</h3>
+          <p>CSV、Excel、JSON、研究・実験で得られる測定データを扱います。</p>
+        </article>
+        <article class="service-card">
+          <span class="service-number">02</span>
+          <h3>整形・抽出・集計</h3>
+          <p>ルールに沿った加工、条件判定、自動計算、複数ファイル処理を組み込みます。</p>
+        </article>
+        <article class="service-card">
+          <span class="service-number">03</span>
+          <h3>解析補助・可視化</h3>
+          <p>解析結果の確認、グラフ表示、画像出力、Excelへの結果反映に対応します。</p>
+        </article>
+        <article class="service-card">
+          <span class="service-number">04</span>
+          <h3>GUI付きツール化</h3>
+          <p>専門知識がない方でも操作しやすい、Windows向けデスクトップアプリにできます。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="visual-section" id="prototype" aria-label="IR・XRD解析ソフトのプロトタイプイメージ">
+      <img class="visual-backdrop" src="assets/images/research-ir-prototype.png" alt="IRスペクトル解析ソフトを使用する研究者のプロトタイプイメージ">
+      <div class="visual-overlay"></div>
+      <div class="visual-inner">
+        <div class="visual-copy">
+          <p class="section-kicker">Research Workflow / Prototype</p>
+          <h2>研究データを、解析から出力まで一つの画面に。</h2>
+          <p>
+            IR・XRDの測定データを使い、読み込み、前処理、ピーク検出、比較、図表出力までを画面上で確認。
+            研究現場のデータ形式と作業手順に合わせて、実際に使える操作へ調整します。
+          </p>
+        </div>
+        <div class="visual-pipeline" aria-label="開発工程の概要">
+          <span><strong>IR</strong> SPECTRUM</span>
+          <span><strong>XRD</strong> PATTERN</span>
+          <span><strong>OUT</strong> FIGURE / CSV</span>
+        </div>
+        <p class="prototype-note">背景画像は研究利用シーンのイメージです。実装済みアプリの画面は次のセクションで確認できます。</p>
+      </div>
+    </section>
+
+    <section class="section analyzer-showcase" aria-labelledby="analyzer-showcase-title">
+      <div class="analyzer-heading">
+        <div>
+          <p class="section-kicker">Working Prototypes / Actual UI</p>
+          <h2 id="analyzer-showcase-title">実装済みの解析ソフトを、サンプルデータで動作確認。</h2>
+        </div>
+        <p class="analyzer-intro">
+          実際に制作したWindows向けデスクトップアプリへ模擬スペクトルを読み込み、解析を実行した画面です。
+          入力形式、解析条件、グラフ、出力項目は研究テーマに合わせて設計できます。
+        </p>
+      </div>
+
+      <div class="analyzer-grid">
+        <figure class="analyzer-panel">
+          <div class="analyzer-window">
+            <img src="assets/images/ir-analyzer-demo.png" width="1920" height="1009" loading="lazy" decoding="async" alt="3条件のIRスペクトル、ピーク検出、振動モード帰属候補を表示したIR Spectrum Analyzerの実画面">
+          </div>
+          <figcaption>
+            <p class="analyzer-type"><span>IR</span> Spectrum Analysis</p>
+            <h3>IR Spectrum Analyzer</h3>
+            <p>高波数・低波数領域を分けて比較し、検出ピークと帰属候補を同じ画面で編集できます。</p>
+            <div class="analyzer-features" aria-label="IR解析ソフトの主な機能">
+              <span>ベースライン補正</span>
+              <span>ピーク検出・帰属</span>
+              <span>CSV・Veusz出力</span>
+            </div>
+          </figcaption>
+        </figure>
+
+        <figure class="analyzer-panel">
+          <div class="analyzer-window">
+            <img src="assets/images/xrd-analyzer-demo.png" width="2880" height="1660" loading="lazy" decoding="async" alt="未処理、400度、600度の3条件を比較し、ピークとHKL候補を表示したXRD Spectrum Analyzerの実画面">
+          </div>
+          <figcaption>
+            <p class="analyzer-type"><span>XRD</span> Diffraction Analysis</p>
+            <h3>XRD Spectrum Analyzer</h3>
+            <p>複数条件の回折パターンをオフセット表示し、ピーク位置、結晶子サイズ、HKL候補を解析できます。</p>
+            <div class="analyzer-features" aria-label="XRD解析ソフトの主な機能">
+              <span>平滑化・ピーク検出</span>
+              <span>複数条件比較</span>
+              <span>HKL・図表出力</span>
+            </div>
+          </figcaption>
+        </figure>
+      </div>
+
+      <p class="analyzer-disclaimer">掲載画面のスペクトルと数値は、機能・表示確認のために生成したサンプルデータです。</p>
+    </section>
+
+    <section class="section profile-section" aria-label="出品者プロフィール">
+      <div class="profile-panel">
+        <div class="profile-mark">
+          <img src="assets/images/logo-seikou.png" alt="武勝ロゴ">
+        </div>
+        <div class="profile-body">
+          <p class="section-kicker">Profile / Note</p>
+          <h2>武勝が大切にするのは、研究・業務で本当に使えること。</h2>
+          <p>
+            博士課程で研究活動を行いながら、データ整理、解析、可視化、出力までの作業を効率化するための
+            Pythonツール制作を行っています。技術的な説明よりも、実際の作業がどれだけ楽になるかを重視します。
+          </p>
+          <div class="profile-actions">
+            <a class="button primary compact" href="https://note.com/okonomitgn_" target="_blank" rel="noopener">noteを見る</a>
+            <a class="button secondary compact dark" href="#flow">制作の流れを見る</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section flow-section" id="flow">
+      <div class="section-heading">
+        <p class="section-kicker">Flow</p>
+        <h2>相談から納品までの流れ</h2>
+      </div>
+      <ol class="flow-list">
+        <li>
+          <span>01</span>
+          <strong>見積り相談</strong>
+          <p>作りたいもの、現在の作業、入力データ、希望出力を確認します。</p>
+        </li>
+        <li>
+          <span>02</span>
+          <strong>仕様整理</strong>
+          <p>必須機能、任意機能、今回は含めない機能を切り分けます。</p>
+        </li>
+        <li>
+          <span>03</span>
+          <strong>プロトタイプ作成</strong>
+          <p>小さく動く形を作り、処理内容と操作感を確認します。</p>
+        </li>
+        <li>
+          <span>04</span>
+          <strong>調整・納品</strong>
+          <p>合意仕様に沿って仕上げ、実行手順や納品形式を整えます。</p>
+        </li>
+      </ol>
+    </section>
+
+    <section class="section pricing-section" id="pricing">
+      <div class="section-heading">
+        <p class="section-kicker">Pricing</p>
+        <h2>基本料金と追加オプション</h2>
+      </div>
+      <div class="pricing-layout">
+        <article class="price-main">
+          <span>基本開発</span>
+          <strong>30,000円</strong>
+          <p>CSV・Excelの読み込み、整形、解析補助、結果出力を目的に合わせて専用ツール化します。</p>
+        </article>
+        <div class="option-grid">
+          <article>
+            <h3>Windows実行ファイル化</h3>
+            <p>+15,000円</p>
+          </article>
+          <article>
+            <h3>グラフ表示・可視化</h3>
+            <p>+20,000円</p>
+          </article>
+          <article>
+            <h3>GUI画面・操作項目追加</h3>
+            <p>+25,000円</p>
+          </article>
+          <article>
+            <h3>ファイル形式追加</h3>
+            <p>+10,000円</p>
+          </article>
+          <article>
+            <h3>複数ファイル一括処理</h3>
+            <p>+10,000円</p>
+          </article>
+          <article>
+            <h3>簡易操作マニュアル</h3>
+            <p>+5,000円</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section estimate-section" id="estimate">
+      <div class="estimate-copy">
+        <img src="assets/images/logo-seikou.png" alt="武勝ロゴ">
+        <div>
+          <p class="section-kicker">Estimate</p>
+          <h2>見積り相談で共有いただきたいこと</h2>
+          <p>分かる範囲で大丈夫です。サンプルデータがあると、見積りと試作が進めやすくなります。</p>
+        </div>
+      </div>
+      <div class="estimate-grid">
+        <span>作りたいものの概要</span>
+        <span>現在の作業手順</span>
+        <span>入力データ形式</span>
+        <span>サンプルデータ</span>
+        <span>希望する出力結果</span>
+        <span>使用環境</span>
+        <span>希望納期</span>
+        <span>必須機能・任意機能</span>
+      </div>
+      <div class="estimate-actions">
+        <a class="button primary" href="#url-notice" aria-describedby="url-notice">ココナラで相談する</a>
+        <a class="button secondary light" href="https://note.com/okonomitgn_" target="_blank" rel="noopener">noteで活動を見る</a>
+      </div>
+    </section>
+
+    <section class="closing-cta" aria-label="相談導線">
+      <div>
+        <p class="section-kicker">Start Small</p>
+        <h2>まずはサンプルデータ1つから、作れる形を整理します。</h2>
+        <p>仕様が完全に固まっていなくても、現在の作業手順と希望する出力が分かれば相談できます。</p>
+      </div>
+      <a class="button primary" href="#url-notice" aria-describedby="url-notice">見積り相談へ進む</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-brand">
+      <img src="assets/images/logo-seikou.png" alt="">
+      <strong>武勝</strong>
+      <span>Python Tool Studio</span>
+    </div>
+    <p>研究・業務用Pythonソフト開発 / データ処理・解析・可視化ツール制作</p>
+    <div class="footer-links">
+      <a href="#service">対応範囲</a>
+      <a href="#pricing">料金</a>
+      <a href="https://note.com/okonomitgn_" target="_blank" rel="noopener">note</a>
+      <a href="#url-notice" aria-describedby="url-notice">ココナラ（URL未実装）</a>
+    </div>
+  </footer>
+</body>
+</html>
