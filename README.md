@@ -5,6 +5,9 @@
 ## 想定構成
 
 - `index.html`: トップページ
+- `works/index.html`: 東京大学研究室への導入実績とIR・XRD解析アプリ（`/works/`）
+- `flow/index.html`: 開発の流れ、見積り方針、相談前の整理項目（`/flow/`）
+- `faq/index.html`: よくある質問16項目（`/faq/`）
 - `assets/css/`: CSSファイル
 - `assets/js/`: JavaScriptファイル
 - `assets/images/`: Webサイトで使う画像（IR・XRD解析アプリのサンプル動作画面を含む）
@@ -25,11 +28,11 @@
 - 掲載値は実測データではなく、機能・表示確認用に生成したサンプルです
 - 元のIR・XRD解析スクリプトや実験データは、この公開フォルダへコピーしていません
 
-## 公開前に差し替える項目
+## 外部リンクの状態
 
-- 現在、ココナラ相談ボタンは `#url-notice` に接続したモックアップ用の仮導線
-- 実際のココナラ出品ページURLが確定したら、`#url-notice` を公開URLへ差し替え、ボタンに `target="_blank" rel="noopener"` を追加する
-- URL差し替え後、ヒーロー内の「URL未実装 / 外部サービスURLは未実装」の注記を削除する
+- noteリンクは `https://note.com/okonomitgn_` に接続済み
+- ココナラ出品ページURLは未確定のため、無料相談ボタンと仮導線は表示しない
+- ココナラURL確定後は、設置場所と文言を決めてから `target="_blank" rel="noopener"` 付きで追加する
 - 独自ドメイン公開後、必要に応じてOGP画像URLやサイトマップを絶対URLで設定する
 
 ## Cloudflare Pages用ファイル
